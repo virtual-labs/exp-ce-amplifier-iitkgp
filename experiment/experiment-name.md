@@ -1,1 +1,1 @@
-## Experiment name
+## Studies on BJT CE Amplifier &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/iitkgp.png" width="3%" />
