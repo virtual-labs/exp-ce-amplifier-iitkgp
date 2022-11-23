@@ -67,8 +67,11 @@ $$&#964;_1=\frac{1}{w_{L1}}=C_{C1} R_{IN}$$
 where,  $$R_{IN}=R_{S}+[R_B || r_{pi}]$$
 
 $$&#964;_2=\frac{1}{w_{L2}}=C_{C2} [R_{L}+(R_C || r_{CE})]$$
-$$&#964;_3=\frac{1}{w_{L3}}=C_E  R'_E$$
+
+$$&#964;_3=\frac{1}{w_{L3}}=C_E \times R'_E$$
+
 $$R'_E=R_E || [\frac{r_{pi}}{&#946;_F +1}+(\frac{R_B || R_S}{&#946;_F +1})]$$
+
 $$w_Z=\frac{1}{R_E \times C_E}$$
 
 Normally,w<sub>Z</sub> < w<sub>L3</sub> and the low frequency cut-off w<sub>L</sub> is larger than thelargest pole frequency. The low frequency cut-off can be approximated as
