@@ -62,15 +62,15 @@ $$A_m=\frac{V_o}{V_s} =-&#946; [r_{CE}|| R_C || R_L][\frac{R_B}{R_B+r_{pi}}][\fr
 
 It can be shown that the low frequency poles, w<sub>L1</sub>, w<sub>L2</sub>, w<sub>L3</sub> can be obtained,by the following equations:
 
-$$(&#964;)_1=\frac{1}{w_{L1}}=C_{C1} R_{IN}$$
+$$τ_1=\frac{1}{w_{L1}}=C_{C1} R_{IN}$$
 
 where,  $$R_{IN}=R_{S}+[R_B || r_{pi}]$$
 
-$$(&#964;)_2=\frac{1}{w_{L2}}=C_{C2} [R_{L}+(R_C || r_{CE})]$$
+$$τ_2=\frac{1}{w_{L2}}=C_{C2} [R_{L}+(R_C || r_{CE})]$$
 
-$$(&#964;)_3=\frac{1}{w_{L3}}=C_E \times R'_E$$
+$$τ_3=\frac{1}{w_{L3}}=C_E \times R'_E$$
 
-$$R'_E=R_E || [\frac{r_{pi}}{(&#946;)_F +1}+(\frac{R_B || R_S}{(&#946;)_F +1})]$$
+$$R'_E=R_E || [\frac{r_{pi}}{(β)_F +1}+(\frac{R_B || R_S}{(&#946;)_F +1})]$$
 
 $$w_Z=\frac{1}{R_E \times C_E}$$
 
