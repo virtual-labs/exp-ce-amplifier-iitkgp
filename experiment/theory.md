@@ -70,7 +70,7 @@ $$τ_2=\frac{1}{w_{L2}}=C_{C2} [R_{L}+(R_C || r_{CE})]$$
 
 $$τ_3=\frac{1}{w_{L3}}=C_E \times R'_E$$
 
-$$R'_E=R_E || [\frac{r_{pi}}{(β)_F +1}+(\frac{R_B || R_S}{(β)_F +1})]$$
+$$R′E=R_E || [\frac{r_{pi}}{β_F +1}+(\frac{R_B || R_S}{β_F +1})]$$
 
 $$w_Z=\frac{1}{R_E \times C_E}$$
 
