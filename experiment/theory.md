@@ -16,7 +16,7 @@ In order to operate transistor as an amplifier, biasing is done in such a way th
 The emitter resistor RE is required to obtain the DC quiescent point stability. However the inclusion of RE in the circuit causes a decrease in amplification at higher frequencies. In order to avoid such a condition, it is bypassed by a capacitor so that it acts as a short circuit for AC and contributes stability for DC quiescent condition. Hence capacitor is connected in parallel with emitter resistance.
 
 $$X_{CE}<< R_E$$
-$$\frac{1}{2  \pi  f  C_E} << R_E$
+$$\frac{1}{2  \pi  f  C_E} << R_E$$
 $$C_E >> \frac{1}{2  \pi  f  R_E}$$
 
 ### The Input/ Output Coupling (or Blocking) Capacitor
@@ -47,10 +47,10 @@ $$A(s)=\frac{A_m  S^2 (S+w_Z)}{(S+w_{L1})(S+w_{L2})(S+w_{L3}) (1+ \frac{S}{w_H})
 
 
 where,
-A<sub>M</sub> is the midband gain,
-w<sub>H</sub> is the frequency of the dominant high frequency pole,
-w<sub>L1</sub>, w<sub>L2</sub>, w<sub>L3</sub> are low frequency poles introduced by the coupling and bypass capacitors,
-w<sub>Z</sub> is the zero introduced by the bypass capacitor.
+A<sub>M</sub> is the midband gain,<br />
+w<sub>H</sub> is the frequency of the dominant high frequency pole,<br />
+w<sub>L1</sub>, w<sub>L2</sub>, w<sub>L3</sub> are low frequency poles introduced by the coupling and bypass capacitors,<br />
+w<sub>Z</sub> is the zero introduced by the bypass capacitor.<br />
 
 The midband gain is obtained by short circuiting all the external capacitors and open circuiting the internal capacitors. Figure 2 shows the equivalent for calculating the midband gain.
 <div align="center">
@@ -59,14 +59,20 @@ The midband gain is obtained by short circuiting all the external capacitors and
 </div>
 
 $$A_m=\frac{V_o}{V_s} =-&#946; [r_{CE}|| R_C || R_L][\frac{R_B}{R_B+r_{pi}}][\frac{1}{R_S+(R_B||r_{pi})}]$$ 
-It can be shown that the low frequency poles, \(w_{L1}\), \(w_{L2}\), \(w_{L3}\) can be obtained,by the following equations:
+
+It can be shown that the low frequency poles, w<sub>L1</sub>, w<sub>L2</sub>, w<sub>L3</sub> can be obtained,by the following equations:
+
 $$&#964;_1=\frac{1}{w_{L1}}=C_{C1} R_{IN}$$
+
 where,  $$R_{IN}=R_{S}+[R_B || r_{pi}]$$
+
 $$&#964;_2=\frac{1}{w_{L2}}=C_{C2} [R_{L}+(R_C || r_{CE})]$$
 $$&#964;_3=\frac{1}{w_{L3}}=C_E  R'_E$$
 $$R'_E=R_E || [\frac{r_{pi}}{&#946;_F +1}+(\frac{R_B || R_S}{&#946;_F +1})]$$
 $$w_Z=\frac{1}{R_E \times C_E}$$
-Normally,w<sub>Z</sub> < w<sub>L3</sub> and the low frequency cut-off \(w_L\) is larger than thelargest pole frequency. The low frequency cut-off can be approximated as
+
+Normally,w<sub>Z</sub> < w<sub>L3</sub> and the low frequency cut-off w<sub>L</sub> is larger than thelargest pole frequency. The low frequency cut-off can be approximated as
+
 $$w_L&#8773;\sqrt(w_{L1})^2+(w_{L2})^2+(w_{L3})^2$$
 
 The high frequency equivalent circuit of the common-emitter amplifier is shown in Figure 3.
