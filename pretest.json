@@ -1,0 +1,97 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Which one of the following statements is correct about an ac-coupled common-emitter amplifier operating in the mid-band region?",
+        "answers": {
+          "a": "The device parasitic capacitances, coupling capacitances and bypass capacitances behave like open circuits",
+          "b": "The device parasitic capacitances, coupling capacitances and bypass capacitances behave like short circuits ",
+          "c": "The device parasitic capacitances behave like short circuits, whereas coupling and bypass capacitances behave like open circuits",
+          "d":"The device parasitic capacitances behave like open circuits, whereas coupling and bypass capacitances behave like short circuits."
+          
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is incorrect",
+          "d":"You have choosen option (d). The answer is correct"
+        },
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "For the low-frequency response of a BJT amplifier, the maximum gain is where ________  ",
+        "answers": {
+          "a": "R<sub>B</sub>=0 &#937;",
+          "b": "R<sub>C</sub>=0 &#937;",
+          "c": "R<sub>E</sub>=0 &#937;",
+          "d": "R<sub>L</sub>=0 &#937;"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is correct",
+          "d":"You have choosen option (c). The answer is incorrect"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+
+      {
+        "question": "What is the normalized gain expressed in dB for the cutoff frequencies?",
+        "answers": {
+          "a": "-6 dB",
+          "b": "-3 dB ",
+          "c": "-20 dB",
+          "d":"+3dB"
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is correct",
+          "c": "You have choosen option (c). The answer is incorrect",
+          "d":"You have choosen option (d). The answer is incorrect"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What magnitude voltage gain corresponds to a decibel gain of 50?",
+        "answers": {
+          "a": "31.6238",
+          "b": "316.228 ",
+          "c": "3162.38",
+          "d":"31623.8"
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is correct",
+          "c": "You have choosen option (c). The answer is incorrect",
+          "d":"You have choosen option (d). The answer is incorrect"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+
+{
+        "question": "The decibel (dB) is defined such that ________ decibel(s) = ________ bel(s).",
+        "answers": {
+          "a": "1, 10",
+          "b": "10, 10",
+          "c": "10, 1",
+          "d":"1, 1"
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect  ",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is correct",
+          "d":"You have choosen option (d). The answer is incorrect"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+      
+    ]
+  }
+  
