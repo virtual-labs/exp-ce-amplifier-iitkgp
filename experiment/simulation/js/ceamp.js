@@ -300,3 +300,10 @@ function cleard() {
     document.getElementById("midbnd").value = "";
     document.getElementById("chartContainer").innerHTML = "";
 }
+
+function printf() {
+    // document.getElementById("demo").innerHTML = "";
+    // document.getElementById("demos").innerHTML = "";
+
+    window.print();
+}
