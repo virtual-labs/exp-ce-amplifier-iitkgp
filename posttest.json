@@ -1,0 +1,93 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Determine what would happen to the voltage gain of a common-emitter transistor amplifier circuit. If the resistance R<sub>c</sub> is changed, then Av<br/><p style=\"text-align:center\"><img src=\"images/bjtampq1.png\" style=\"width:350px;height:300px\"></p>",
+      "answers": {
+        "a": "Increase",
+        "b": "Doesnot Change ",
+        "c": "Decrease"
+        
+        
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct"
+        
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Determine what would happen to the voltage gain of a common-emitter transistor amplifier circuit. If the resistance R<sub>bias1</sub> is changed, then Av<br/><p style=\"text-align:center\"><img src=\"images/bjtampq2.png \" style=\"width:350px;height:300px\"></p> ",
+      "answers": {
+        "a": "Increase",
+        "b": "Doesnot Change ",
+        "c": "Decrease"
+        
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is correct  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is incorrect"
+        
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "Determine what would happen to the voltage gain of a common-emitter transistor amplifier circuit. If the resistance R<sub>bias2</sub> is changed, then Av <br/><p style=\"text-align:center\"><img src=\"images/bjtampq3.png \" style=\"width:350px;height:300px\"></p>",
+      "answers": {
+        "a": "Increase",
+        "b": "Doesnot Change ",
+        "c": "Decrease"
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct"
+        
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a common-emitter amplifier, the purpose of swamping is",
+      "answers": {
+        "a": "To minimize gain",
+        "b": "To reduce the effect of r'<sub>e</sub> ",
+        "c": "To maximize gain",
+        "d":"No purpose"
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is correct",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d":"You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+{
+      "question": "Fill in the blanks:A common-emitter amplifier has ________ voltage gain, ________ current gain, ________ power gain, and ________ input impedance. ",
+      "answers": {
+        "a": "high, high, high, lo",
+        "b": "high, low, high, low ",
+        "c": "high, high, high, high",
+        "d":"low, low, low, high"
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is correct  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d":"You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+    
+  ]
+}
