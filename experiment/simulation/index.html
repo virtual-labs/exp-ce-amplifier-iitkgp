@@ -3,16 +3,56 @@
 <head>
 	<!-- Add CSS at the head of HTML file -->
     <link rel="stylesheet" href="./css/fnlcss.css">
+	 <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+
+    <link rel="stylesheet" href="./css/fnlcss.css">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/jsplumb.js"></script>
+	<script src="./js/volconnection.js"></script>
+
 </head>
 <body>
 		<!-- Your code goes here-->
-		<div  style="position:relative;width:600px;height:410px; margin:0 auto;">
+
+
+		<!--div  style="position:relative;width:600px;height:410px; margin:0 auto;">
 			<marquee style="color:green;font-size:20pt;direction:right; behavior:alternate;">Frequency Response - CE Amplifier</marquee>   
 
                             <input type="button" onclick="window.open('./ceamp.html', '_blank');" value="CE Amplifier" style="position:absolute; top:100px;  right:110px;"/>
 <input type="button" onclick="window.open('./ceamp_ver1.html', '_blank');" value="CE Amplifier (draw circuit)" style="position:absolute; top:150px;  right:110px;"/>
-</div>
+</div-->
 	   <!-- Add JS at the bottom of HTML file --> 
+
+<div class="container p-3 my-5 border-0">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <marquee class="h3 text-success" > Response - CE Amplifier</marquee>
+          <ul class="nav nav-pills nav-justified " role="tablist"> 
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <li class="nav-item nav-link p-2 rounded border border-2"  data-bs-toggle="tab" onclick="window.open('./ceamp.html','_blank');" style="cursor: pointer;">  <span class="h5"> CE Amplifier </span>
+                </li><br>
+                <li class="nav-item nav-link p-2 rounded border border-2"  data-bs-toggle="tab" onclick="window.open('./ceamp_ver1.html','_blank');" style="cursor: pointer;" >
+                    <span class="h5"> CE Amplifier (draw circuit) </span>
+                </li><br> 
+               
+            </div>
+            <div class="col-sm-3"></div>
+          </ul>
+
+
+        </div>
+        <div class="col-md-1"></div>  
+      </div>
+    </div>
        
 </body>
 </html>
