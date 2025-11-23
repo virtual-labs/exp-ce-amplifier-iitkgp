@@ -37,7 +37,7 @@ Emitter bypass capacitors are used to short circuit the emitter resistor and thu
 The input resistance is medium and is essentially independent of the load resistance R<sub>L</sub> . The output resistance is relatively high and is essentially independent of the source resistance.
 
 <div align="center">
-<img src="images/ceampprc.png" width="50%">
+<img src="images/ceampprc.png" style="max-width:100%; height:auto;">
 <p>Figure 1 </p>
 </div>
 
@@ -54,7 +54,7 @@ w<sub>Z</sub> is the zero introduced by the bypass capacitor.<br />
 
 The midband gain is obtained by short circuiting all the external capacitors and open circuiting the internal capacitors. Figure 2 shows the equivalent for calculating the midband gain.
 <div align="center">
-<img src="images/midbandgain.png" width="50%">
+<img src="images/midbandgain.png" style="max-width:100%; height:auto;">
 <p>Figure 2 </p>
 </div>
 
@@ -81,7 +81,7 @@ $$w_L&#8773;\sqrt(w_{L1})^2+(w_{L2})^2+(w_{L3})^2$$
 The high frequency equivalent circuit of the common-emitter amplifier is shown in Figure 3.
 
 <div align="center">
-<img src="images/highfreq.png" width="50%">
+<img src="images/highfreq.png" style="max-width:100%; height:auto;">
 <p>Figure 3 </p>
 </div>
 In Figure 3, C<sub>μ</sub> is the collector-base capacitance, C<sub>π</sub> is the emitter to base capacitance, r<sub>X</sub> is the resistance of silicon material of the base region between the base terminal B and an internal or intrinsic base terminal B’. Using the Miller Theorem, it can be shown that the 3-dB frequency at high frequencies is approximately given as
