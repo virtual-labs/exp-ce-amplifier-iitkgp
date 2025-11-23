@@ -14,7 +14,7 @@
                                     
 
 <div align="center">
-<img src="images/ceampprc.png" width="50%">
+<img src="images/ceampprc.png" style="max-width:100%; height:auto;">
 <p>Figure:1</p>
 </div>
 
