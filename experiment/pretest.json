@@ -11,12 +11,7 @@
           
           
         },
-        "explanations": {
-          "a": "You have choosen option (a). The answer is incorrect",
-          "b": "You have choosen option (b). The answer is incorrect",
-          "c": "You have choosen option (c). The answer is incorrect",
-          "d":"You have choosen option (d). The answer is correct"
-        },
+       
         "correctAnswer": "d",
         "difficulty": "beginner"
       },
@@ -29,12 +24,7 @@
           "d": "R<sub>L</sub>=0 &#937;"
           
         },
-        "explanations": {
-          "a": "You have choosen option (a). The answer is incorrect  ",
-          "b": "You have choosen option (b). The answer is incorrect",
-          "c": "You have choosen option (c). The answer is correct",
-          "d":"You have choosen option (c). The answer is incorrect"
-        },
+        
         "correctAnswer": "c",
         "difficulty": "beginner"
       },
@@ -47,12 +37,7 @@
           "c": "-20 dB",
           "d":"+3dB"
         },
-        "explanations": {
-          "a": "You have choosen option (a). The answer is incorrect  ",
-          "b": "You have choosen option (b). The answer is correct",
-          "c": "You have choosen option (c). The answer is incorrect",
-          "d":"You have choosen option (d). The answer is incorrect"
-        },
+        
         "correctAnswer": "b",
         "difficulty": "beginner"
       },
@@ -64,12 +49,7 @@
           "c": "3162.38",
           "d":"31623.8"
         },
-        "explanations": {
-          "a": "You have choosen option (a). The answer is incorrect  ",
-          "b": "You have choosen option (b). The answer is correct",
-          "c": "You have choosen option (c). The answer is incorrect",
-          "d":"You have choosen option (d). The answer is incorrect"
-        },
+        
         "correctAnswer": "b",
         "difficulty": "beginner"
       },
@@ -82,12 +62,7 @@
           "c": "10, 1",
           "d":"1, 1"
         },
-        "explanations": {
-          "a": "You have choosen option (a). The answer is incorrect  ",
-          "b": "You have choosen option (b). The answer is incorrect",
-          "c": "You have choosen option (c). The answer is correct",
-          "d":"You have choosen option (d). The answer is incorrect"
-        },
+       
         "correctAnswer": "c",
         "difficulty": "beginner"
       }
